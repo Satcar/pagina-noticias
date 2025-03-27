@@ -33,8 +33,8 @@ body {
   
   .navBar a:hover {
     color: #89e687;
-    font-size: larger;
-    transition: 0.5s;
+    padding: 10px;
+    background-color: #2F4F4F;
   }
 
   .content {
@@ -77,34 +77,16 @@ body {
     background-color: #DAD7CD;
   }
 
-  th, td {
-    text-align: left;
-    border-bottom: 1px solid #ccc;
+  td {
+    padding: 25px;
+    border-width: 5px;
+    text-align: center;
+    border-bottom: 1px solid #DAD7CD;
   }
   
   th {
     background-color: #DAD7CD;
     color: #2F4F4F;
-  }
-
-  video {
-    padding: 10px;
-    justify-content: center;
-  }
-
-  .mediaContainer {
-    display: flex;
-    justify-content: center;
-  }
-
-  img {
-    width: 300px;
-    margin: 15px;
-  }
-
-  .imgContainer {
-    display: flex;
-    justify-content: right;
   }
 
   .headerContainer {
@@ -137,3 +119,33 @@ body {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
   }
+
+  .currentPage {
+    margin: 0px;
+    padding: 10px;
+    background-color: #2F4F4F;
+  }
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: crimson;
+}
+
+.deportesContainer {
+  gap: 20px;
+  padding: 20px;
+}
+
+.videoContent {
+  width: 20%;
+  background-color: #A3B18A;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+video {
+  width: 300px;
+}
